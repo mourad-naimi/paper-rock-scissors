@@ -1,0 +1,147 @@
+
+
+/*-----h1-----*/
+h1{
+  font-size: 50px;
+  color: aqua;
+  text-align: center;
+  margin: 80px;
+}
+
+/*-----global-field----*/
+.global-field{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+/*-----paper----*/
+.paper{
+  background-image: url("paper.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+}
+
+/*-----rock----*/
+.rock{
+  background-image: url("rock.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+}
+
+/*-----scissors----*/
+.scissors{
+  background-image: url("scissors.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+}
+
+/*-----player----*/
+.player{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+/*-----result----*/
+.result{
+  margin-top: 20px;
+  width: 30%;
+  height: 80%;
+  line-height: 35px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/*-----computer----*/
+.computer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+/*-----computer-field----*/
+.computer-field{
+  background-image: url("comp.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/*-----texts----*/
+.text{
+  font-size: 25px;
+  color: blue;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/*-----player-choice----*/
+.player-choice{
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/*-----computer-choice----*/
+.computer-choice{
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/*-----game-result----*/
+.game-result{
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/*-----your-choice----*/
+.your-choice{
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+  margin: 10px;
+}
+
+/*-----comp-choice----*/
+.comp-choice{
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+  margin: 10px;
+}
+
+/*-----pll----*/
+.pll{
+  width: 30%;
+}
+
+/*-----compp----*/
+.compp{
+  width: 30%;
+}
